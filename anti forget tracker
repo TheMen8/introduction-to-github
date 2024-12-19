@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แปลงไฟล์ HTML เป็น URL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .instructions {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+    <p>นี่คือเว็บไซต์ตัวอย่างที่สร้างจาก HTML</p>
+
+    <!-- ลิงก์ไปยังเว็บไซต์อื่น -->
+    <a href="https://www.google.com" target="_blank">ไปที่ Google</a>
+
+    <!-- คำแนะนำ -->
+    <div class="instructions">
+        <p>หากคุณต้องการแปลงไฟล์นี้ให้เป็น URL ออนไลน์:</p>
+        <ol>
+            <li>อัปโหลดไฟล์ไปที่ <a href="https://github.com" target="_blank">GitHub</a> และเปิดใช้งาน <strong>GitHub Pages</strong></li>
+            <li>หรือใช้ <a href="https://www.netlify.com/" target="_blank">Netlify</a> สำหรับโฮสต์ไฟล์ฟรี</li>
+            <li>สำหรับการแชร์ง่ายๆ ใช้ <a href="https://drv.tw/" target="_blank">DriveToWeb</a> ร่วมกับ Google Drive</li>
+        </ol>
+        <p>คุณสามารถคัดลอกโค้ดนี้และเริ่มการพัฒนาได้เลย!</p>
+    </div>
+</body>
+</html>
